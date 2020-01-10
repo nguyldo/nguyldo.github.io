@@ -7,6 +7,11 @@ body {
     background-color: #F0F0F0;
 }
 
+a {
+    text-decoration: none;
+    color: #ebf4f6;
+}
+
 .introdiv {
     background-color: #58668b;
     width: 100%;
@@ -50,6 +55,22 @@ body {
     margin-right: 20px;
     color: #ebf4f6;
 }
+
+@media screen and (max-width: 476px) {
+    .introme {
+        height: 290px;
+    }
+    .nametitle {
+        height: 40px;
+    }
+    .profilepic {
+        margin-left: 0px;
+        margin-right: 20px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
 
 .detailsdiv {
     font-family: 'Raleway', sans-serif;

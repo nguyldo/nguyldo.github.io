@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    margin: 2% 5% 2% 5%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F0F0;
+}
+
+.introdiv {
+    background-color: #58668b;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.linkbutton {
+    background-color: #58668b;
+    border-width: 0px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 5px;
+    color: #ebf4f6;
+}
+
+.introme {
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    height: 220px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.profilepic {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.nametitle {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 20px;
+    color: #ebf4f6;
+}
+
+.detailsdiv {
+    font-family: 'Raleway', sans-serif;
+}
+
+.summary {
+    font-weight: 500;
+}
+
+.detailitem {
+    background-color: #58668b;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 230px;
+    height: 250px;
+    margin-bottom: 60px;
+    margin-right: 70px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    color: #ebf4f6;
+}
+
+.detailtitle {
+    font-size: 30px;
+    width: 100%;
+    clear: left;
+}
+
+.itemtitle {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.iteminfo {
+    font-size: 15px;
+}

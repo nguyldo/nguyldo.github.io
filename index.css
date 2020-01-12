@@ -52,7 +52,7 @@ a {
 .nametitle {
     display: inline-block;
     height: 100%;
-    font-size: 35px;
+    font-size: 32px;
     vertical-align: middle;
     margin-right: 20px;
     color: #ebf4f6;
@@ -65,7 +65,10 @@ a {
     margin: 0px 5px 40px 5px;
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 500px) {
+    .introlinks {
+        text-align: center;
+    }
     .linkbutton {
         margin: 10px;
     }
@@ -74,12 +77,14 @@ a {
     }
     .nametitle {
         height: 40px;
+        width: 100%;
+        margin-right: 0px;
     }
     .profilepic {
         margin-left: 0px;
-        margin-right: 20px;
-        width: 200px;
-        height: 200px;
+        margin-right: 0px;
+        width: 180px;
+        height: 180px;
     }
 }
 

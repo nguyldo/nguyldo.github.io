@@ -21,7 +21,7 @@ p {
 .heading__name {
     margin: 0px;
     padding: 40px 0px 40px 0px;
-    font-weight: 100;
+    font-weight: 600;
     font-size: 35px;
     text-transform: uppercase;
 }
@@ -34,7 +34,7 @@ p {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
     font-size: 20px;
 }
 
@@ -93,4 +93,49 @@ p {
 
 .item__date {
     margin-bottom: 12px;
+}
+
+@media (max-width: 1408px) {
+    .info {
+        padding: 20px 10% 20px 10%;
+    }
+    .info__item {
+        grid-template-columns: 12% auto 27%;
+    }
+    .item__title {
+        font-size: 20px;
+    }
+    .item__description {
+        font-size: 14px;
+    }
+    .item__description2 {
+        font-size: 14px;
+    }
+    .item__details {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 685px) {
+    .info {
+        padding: 20px 7% 20px 7%;
+    }
+    .info__links {
+        font-size: 17px;
+    }
+    .info__title {
+        font-size: 27px;
+    }
+    .item__title {
+        font-size: 19px;
+    }
+    .item__description {
+        font-size: 13px;
+    }
+    .item__description2 {
+        font-size: 13px;
+    }
+    .item__details {
+        font-size: 13px;
+    }
 }

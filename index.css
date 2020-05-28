@@ -1,136 +1,96 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    margin: 2% 5% 2% 5%;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F0F0F0;
-}
-
-a {
-    text-decoration: none;
-    color: #ebf4f6;
-}
-
-.introdiv {
-    background-color: #58668b;
-    width: 100%;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
     padding: 0px;
-    overflow: hidden;
-    border-radius: 15px;
+    background-color: #FCFCFC;
 }
 
-.introlinks {
-    margin-top: 30px;
+p {
+    margin: 0px;
 }
 
-.linkbutton {
-    font-family: 'Raleway', sans-serif;
+.heading {
+    width: 100%;
+    background-color: #de6868;
+    color: #FCFCFC;
+    text-align: center;
+}
+
+.heading__name {
+    margin: 0px;
+    padding: 40px 0px 40px 0px;
+    font-weight: 100;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.info {
+    padding: 20px 13% 20px 13%;
+}
+
+.info__links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px;
     font-size: 20px;
-    font-weight: 200;
-    margin: 30px;
-    color: #ebf4f6;
 }
 
-.introme {
-    vertical-align: middle;
-    overflow: hidden;
-    text-align: center;
-    height: 220px;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.profilepic {
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
-    margin-left: 20px;
-}
-
-.nametitle {
-    display: inline-block;
-    height: 100%;
-    font-size: 32px;
-    vertical-align: middle;
-    margin-right: 20px;
-    color: #ebf4f6;
-}
-
-.infobar {
-    text-align: center;
-    color: #ebf4f6;
-    font-size: 16px;
-    margin: 0px 5px 40px 5px;
-}
-
-@media screen and (max-width: 500px) {
-    .introlinks {
-        text-align: center;
-    }
-    .linkbutton {
-        margin: 10px;
-    }
-    .introme {
-        height: 290px;
-    }
-    .nametitle {
-        height: 40px;
-        width: 100%;
-        margin-right: 0px;
-    }
-    .profilepic {
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 180px;
-        height: 180px;
-    }
-}
-
-
-.detailsdiv {
-    font-family: 'Raleway', sans-serif;
-    margin: 2% 5% 2% 5%;
-}
-
-.summary {
-    font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.detailitem {
-    background-color: #58668b;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 0px;
-    width: 230px;
-    height: 250px;
-    margin-bottom: 60px;
-    margin-right: 70px;
-    padding: 10px;
-    float: left;
-    text-align: center;
-    color: #ebf4f6;
-}
-
-.detailtitle {
-    font-size: 30px;
-    font-weight: bold;
-    width: 100%;
-    clear: left;
-}
-
-.itemtitle {
-    font-size: 23px;
-    font-weight: bold;
-}
-
-.iteminfo {
-    font-size: 15px;
-}
-
-a:visited {
+.link__option, a {
     text-decoration: none;
+    color: #de6868;
+    
+}
+
+.info__title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 40px 0px 40px 0px;
+}
+
+.info__item {
+    display: grid;
+    grid-template-columns: 120px auto 170px;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.item__img {
+    /*background-color: #CCCCCC;*/
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}
+
+.item__main {
+    /*background-color: #AAAAAA;*/
+}
+
+.item__title {
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.item__description {
+    font-weight: 400;
+    font-size: 16px;
+}
+.item__description2 {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.item__details {
+    /*background-color: #888888;*/
+    text-align: right;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.item__date {
+    margin-bottom: 12px;
 }

@@ -52,7 +52,7 @@ p {
 
 .info__item {
     display: grid;
-    grid-template-columns: 120px auto 170px;
+    grid-template-columns: 12% auto 20%;
     grid-gap: 20px;
     margin-bottom: 20px;
 }

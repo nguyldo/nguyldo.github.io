@@ -7,18 +7,17 @@
     </head>
     <body>
         <div class="heading">
-            <p class="heading__name">Nguyen Do</p>
+            <div class="heading__title">
+                <img src="assets/me.png" class="heading__img"/>
+                <p class="heading__name">Nguyen Do</p>
+            </div>
+            <div class="info__links">
+                <a href="https://github.com/nguyldo" target="_blank" class="link__option">GitHub</a>
+                <a href="https://drive.google.com/open?id=1o1wdfhEcl5kw7wkmwU6EyWrTJ1dDo-XW" target="_blank" class="link__option">Resume</a>
+                <a href="https://www.linkedin.com/in/nguyen-do-513120177/" target="_blank" class="link__option">LinkedIn</a>
+            </div>
         </div>
         <div class="info">
-            <div class="info__links">
-                <p class="link__dot">|</p>
-                <a href="https://github.com/nguyldo" target="_blank" class="link__option">GitHub</a>
-                <p class="link__dot">|</p>
-                <a href="https://drive.google.com/open?id=1o1wdfhEcl5kw7wkmwU6EyWrTJ1dDo-XW" target="_blank" class="link__option">Resume</a>
-                <p class="link__dot">|</p>
-                <a href="https://www.linkedin.com/in/nguyen-do-513120177/" target="_blank" class="link__option">LinkedIn</a>
-                <p class="link__dot">|</p>
-            </div>
             <div class="info__education">
                 <p class="info__title">Education</p>
                 <div class="info__item">
@@ -27,7 +26,7 @@
                         <p class="item__title">Purdue University</p>
                         <p class="item__description">
                             B.S. in Computer Science<br>
-                            Minors in Management and Mathematics
+                            Minors in Management, Mathematics
                         </p>
                     </div>
                     <div class="item__details">
@@ -41,19 +40,20 @@
                 <div class="info__item">
                     <img src="assets/cress-logo.jpeg" class="item__img" />
                     <div class="item__main">
-                        <p class="item__title">Front End Developer Intern @ Cress Health</p>
+                        <p class="item__title">Software Engineering Intern <span class="company">@ Cress Health</span></p>
                         <p class="item__description">
                             In progress.
                         </p>
                     </div>
                     <div class="item__details">
                         <p class="item__date">Summer 2020</p>
+                        <p class="item__location">Remote</p>
                     </div>
                 </div>
                 <div class="info__item">
                     <img src="assets/purdue-logo.png" class="item__img" />
                     <div class="item__main">
-                        <p class="item__title">Research Assistant @ Kihara Bioinformatics Laboratory</p>
+                        <p class="item__title">Research Assistant <span class="company">@ Kihara Bioinformatics Laboratory</span></p>
                         <p class="item__description">
                             Used: React JS, Three JS, HTML/CSS/JavaScript
                         </p>
@@ -69,9 +69,9 @@
                 <div class="info__item">
                     <img src="assets/trend-logo.png" class="item__img" />
                     <div class="item__main">
-                        <p class="item__title">Software Engineer Intern @ Trend Micro</p>
+                        <p class="item__title">Software Engineering Intern <span class="company">@ Trend Micro</span></p>
                         <p class="item__description">
-                            Used: Python, Pytest, Jenkins, Docker
+                            Used: Python, Pytest
                         </p>
                         <p class="item__description2">
                             Developed and refactored end-to-end tests, improving the efficiency of existing tests by
@@ -86,13 +86,12 @@
             </div>
             <div class="info__projects">
                 <p class="info__title">Projects</p>
-                <!--
                 <div class="info__item">
                     <img src="assets/hive-logo.png" class="item__img" />
                     <div class="item__main">
                         <p class="item__title">Hive</p>
                         <p class="item__description">
-                            Express JS, React JS, MongoDB, HTML/CSS/JavaScript, Scrum Master
+                            Used: Express JS, React JS, MongoDB, HTML/CSS/JavaScript
                         </p>
                         <p class="item__description2">
                             Find others that can keep you accountable and vice versa with a common goal.
@@ -100,15 +99,15 @@
                     </div>
                     <div class="item__details">
                         <p class="item__date">Web Application</p>
+                        <a href="https://github.com/nguyldo/Hive" target="_blank" class="item__link">GitHub Link</a>
                     </div>
                 </div>
-                -->
                 <div class="info__item">
                     <img src="assets/verse-logo.png" class="item__img" />
                     <div class="item__main">
                         <p class="item__title">Verse</p>
                         <p class="item__description">
-                            Django (+ REST Framework), React JS, Python, HTML/CSS/JavaScript
+                            Used: Django (+ REST Framework), React JS, Python, HTML/CSS/JavaScript
                         </p>
                         <p class="item__description2">
                             Privacy literacy app that parses and analyzes gigabytes of data and visualizes what 
@@ -124,7 +123,7 @@
                     <div class="item__main">
                         <p class="item__title">ClassConnect</p>
                         <p class="item__description">
-                            Swift, Firebase
+                            Used: Swift, Firebase (authentication, NoSQL database)
                         </p>
                         <p class="item__description2">
                             Platform for students and teachers to connect over text, keeping students anonymous.
@@ -132,7 +131,7 @@
                     </div>
                     <div class="item__details">
                         <p class="item__date">iPhone Application</p>
-                        <a href="https://apps.apple.com/us/app/classconnect-messaging-for-teachers-and-students/id1264117373" target="_blank" class="item__location">App Store Link</a>
+                        <a href="https://apps.apple.com/us/app/classconnect-messaging-for-teachers-and-students/id1264117373" target="_blank" class="item__link">App Store Link</a>
                     </div>
                 </div>
                 <div class="info__item">
@@ -140,7 +139,7 @@
                     <div class="item__main">
                         <p class="item__title">Quicksaurus</p>
                         <p class="item__description">
-                            Swift, REST APIs
+                            Used: Swift, REST APIs
                         </p>
                         <p class="item__description2">
                             Simple, quick, and bare-bones thesaurus app to easily find synonyms.
@@ -148,6 +147,7 @@
                     </div>
                     <div class="item__details">
                         <p class="item__date">iPhone Application</p>
+                        <a href="https://github.com/nguyldo/Quicksaurus" target="_blank" class="item__link">GitHub Link</a>
                     </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                     <div class="item__main">
                         <p class="item__title">BoilerMake</p>
                         <p class="item__description">
-                            Sponsorship Committee
+                            Executive Team - Sponsorship Committee
                         </p>
                         <p class="item__description2">
                             Annual Hackathon hosted on Purdue's campus, bringing together hundreds of hackers every year.

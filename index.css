@@ -60,10 +60,13 @@ p {
 .link__option {
     text-decoration: none;
     color: #FFFFFF;
+    padding: 15px 20px 15px 20px;
 }
 
 .link__option:hover {
-    color: #DDDDDD;
+    /*color: #DDDDDD; */
+    background-color: #ce5858;
+    border-radius: 20px;
 }
 
 .info__title {
